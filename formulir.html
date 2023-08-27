@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>telkom</title>
+    <link rel="shortcut icon" href="img/tlkm.png" type="image/x-icon">
+    <style type="text/css">
+        body { font-family: Calibri, Helvetica, Arial, sans-serif; }
+        h3 { font-family: Cambria,"Times New Roman",serif; }
+        #paragraf2 { font-family: Georgia, serif; }
+    </style>
+</head>
+<body>
+    <h2 align="center">Latihan Formulir</h2>
+    <fieldset>
+        <legend align="center">Input Data</legend>
+        <table>
+        <tbody>
+            <tr>
+                <td>
+                    <label>Nama</label>
+                </td>
+                <td>:</td>
+                <td>
+                    <input type="text" name="Nama" placeholder="Masukan Nama Lengkap" size="42"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Password</label>
+                </td>
+                <td>:</td>
+                <td>
+                    <input type="text" name="Password" size="42"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Tanggal Lahir</label>
+                </td>
+                <td>:</td>
+                <td>
+                    <input type="date" name="tanggal" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Jenis kelamin</label>
+                </td>
+                <td>:</td>
+                <td>
+                    <label><input type="radio" name="jenis_kelamin" value="laki-laki" /> Laki-laki</label>
+                    <label><input type="radio" name="jenis_kelamin" value="perempuan" /> Perempuan</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Nomor Telepon</label>
+                </td>
+                <td>:</td>
+                <td>
+                    <input type="number" name="Password" placeholder="Masukan Nomor Telepon" size="42"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Asal Kota</label>
+                </td>
+                <td>:</td>
+                <td>
+                    <select name="Kota">
+                    <option value="pwt">Purwokerto</option>
+                    <option value="ajb">Ajibarang</option>
+                    <option value="byms">Banyumas</option>
+                    <option value="jtg">Jateng</option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Alamat</label>
+                </td>
+                <td>:</td>
+                <td>
+                    <textarea id="alamat" name="alamat" rows="4" cols="40"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Hobi</label>
+                </td>
+                <td>:</td>
+                <td>
+                    <label><input type="radio" name="Buku" value="Buku" /> Membaca Buku</label>
+                    <label><input type="radio" name="Menulis" value="Menulis" /> Menulis</label>
+                    <label><input type="radio" name="Memancing" value="Memancing" /> Memancing</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Makanan Favorit</label>
+                </td>
+                <td>:</td>
+                <td>
+                    <input type="text" name="makanan" size="42"/>
+                </td>
+            </tr>
+        </tbody>
+        </table>
+        <div class="Button" align="right">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+    </fieldset>
+    <div class="Butt" align="center">
+        <button>Next Page</button>
+    </div>
+</body>
+</html>
